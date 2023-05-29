@@ -1,6 +1,6 @@
 name: value_watcher
 description: Super simple Builder widget to listen ValueNotifier changes
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/everton-e26/value_watcher
 
 environment:

@@ -52,7 +52,7 @@ class _WatcherBuilderElement extends InheritedElement {
 }
 
 extension BuildContextExt on BuildContext {
-  T watch<T>(ValueListenable<T> valueListenable) {
+  T listen<T>(ValueListenable<T> valueListenable) {
     final myBuilder = getInheritedWidgetOfExactType<WatcherBuilder>()!;
     myBuilder._element.addListener(valueListenable);
     return valueListenable.value;

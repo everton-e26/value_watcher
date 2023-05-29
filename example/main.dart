@@ -16,7 +16,7 @@ class MyWidget extends StatelessWidget {
       ),
       body: WatcherBuilder(
         builder: (context) {
-          final value = context.watch(counter);
+          final value = context.listen(counter);
           return Text('value $value');
         },
       ),
